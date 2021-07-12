@@ -31,7 +31,7 @@
             uses: docker/build-push-action@v2
             with:
               context: .
-              file: ./Dockerfile
-              platfoems: linux/amd64
+              file: ../../python-helloworld/Dockerfile
+              platforms: linux/amd64
               push: true
               tags: lenineo/python-helloworld:latest
