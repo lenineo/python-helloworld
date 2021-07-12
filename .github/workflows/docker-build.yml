@@ -28,8 +28,8 @@
             name: Build and push
             uses: docker/build-push-action@v2
             with:
-              context: .
-              file: ../../python-helloworld/Dockerfile
+              context: ./python-helloworld
+              file: ./Dockerfile
               platforms: linux/amd64
               push: true
-              tags: lenineo/python-helloworld:latest
+              tags: ulyanov/python-helloworld:latest
