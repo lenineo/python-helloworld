@@ -2,7 +2,7 @@ FROM python:3.6.5
 
 LABEL maintainer="Sergei Ulianov"
 
-COPY python-helloworld /app
+COPY . /app
 
 WORKDIR /app
 
